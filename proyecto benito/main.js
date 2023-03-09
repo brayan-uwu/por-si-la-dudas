@@ -47,7 +47,7 @@ function guardar() {
     var arrayg = localStorage.getItem('ta');
     var ubi = JSON.parse(arrayg);
     console.log(ubi, ubi, mar, ta);
-    alert("FICHAJE COMPLETADO");
+    alert("SE FICHO AL JUGADOR");
     document.getElementById('tal').value = ' '
     document.getElementById('marc').value = ' '
     document.getElementById('nam').value = ' '
